@@ -10,6 +10,9 @@ class UserService {
   static UpdateUsername(user, newUsername){
     return user.username = newUsername;
   }
+  static getAllUsernames(list_users){
+    return [list_users[0].username, list_users[1].username, list_users[2].username]
+  }
 }  
 
 module.exports = UserService;
