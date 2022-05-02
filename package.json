@@ -1,0 +1,14 @@
+{
+  "name": "user_services",
+  "version": "1.0.0",
+  "description": "Prcatica 4 semana 3 Backend NodeJs Launch X",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Urivan Rubio",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
