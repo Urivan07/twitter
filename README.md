@@ -19,15 +19,15 @@ Requerimiento 4: Agregar un nuevo método estático en `UserService` llamado `ge
 Requerimiento 1: Crear un nuevo usuario con la clase Usuario( id, username, name), usando una nueva clase llamada `UserService`.
 ```
 
-* Class User:
+* Class User: <br>
 ![user_class](https://github.com/Urivan07/user_services/blob/master/assets/img/user_class.JPG)
 
-* class UserService:
+* class UserService:<br>
 ![user_service](https://github.com/Urivan07/user_services/blob/master/assets/img/user_service.JPG)
 
 ### Test
 
-* Prueba resultado esperado erroneo:
+* Prueba resultado esperado erroneo:<br>
 ![test1](https://github.com/Urivan07/user_services/blob/master/assets/img/test1-failed.JPG)
 
 * Prueba resultado esperado correcto:
@@ -41,10 +41,10 @@ Requerimiento 2: Agregar un nuevo método estático en `UserService` llamado `ge
 
 ### Test
 
-* Prueba resultado esperado erroneo:
+* Prueba resultado esperado erroneo:<br>
 ![test2](https://github.com/Urivan07/user_services/blob/master/assets/img/test2-failed.JPG)
 
-* Prueba resultado esperado correcto:
+* Prueba resultado esperado correcto:<br>
 ![test2-2](https://github.com/Urivan07/user_services/blob/master/assets/img/test2-passed.JPG)
 
 ## Requerimiento 3
@@ -55,10 +55,10 @@ Requerimiento 3: Agregar un nuevo método estático en `UserService` llamado `up
 
 ### Test
 
-* Prueba resultado esperado erroneo:
+* Prueba resultado esperado erroneo:<br>
 ![test3](https://github.com/Urivan07/user_services/blob/master/assets/img/test3-failed.JPG)
 
-* Prueba resultado esperado correcto:
+* Prueba resultado esperado correcto:<br>
 ![test3-2](https://github.com/Urivan07/user_services/blob/master/assets/img/test3-passed.JPG)
 
 ## Requerimiento 4
@@ -69,10 +69,10 @@ Requerimiento 4: Agregar un nuevo método estático en `UserService` llamado `ge
 
 ### Test
 
-* Prueba resultado esperado erroneo:
+* Prueba resultado esperado erroneo:<br>
 ![test4](https://github.com/Urivan07/user_services/blob/master/assets/img/test4-failed.JPG)
 
-* Prueba resultado esperado correcto:
+* Prueba resultado esperado correcto:<br>
 ![test4-2](https://github.com/Urivan07/user_services/blob/master/assets/img/test4-passed.JPG)
 
 
