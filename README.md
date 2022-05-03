@@ -161,3 +161,62 @@ Requerimiento 4: Agregar un nuevo método estático en `UserService` llamado `ge
 ![test4-2](https://github.com/Urivan07/twitter/blob/master/assets/img/practica2/test4-passed.JPG)
 
 
+## Requerimientos Practica 3
+
+```markdown
+Crea una clase llamada `UserView` que servirá para interactuar con el modelo `User` a través de `userService`. Crea un método en esta clase llamado `create User` que sirva para crear un nuevo objeto user a partir de un `payload`, quiero decir un objeto que contenga información para crearlo.
+
+Requerimientos:
+1. Valida que al enviar en el `payload` un valor `null`, obtenga un objeto con la llave `error` y el valor indique `payload no existe`.
+2. Valida que un `payload` contenga en alguna de las llaves `username`, `name`, o `id` un valor en `null`. Si hay un valor `null` regresa un objeto con la llave `error` y que indique el texto: `necesitan tener un valor válido`.
+3. Valida que un `payload` con algunas de las propiedades necesarias regrese un objeto con la llave `error` indicando `necesitan tener un valor válido`.
+4. Verifica que se pueda crear un objeto `User`, al enviar un payload con las siguientes propiedades: `username`, `id` y `name`.
+```
+
+#  Requerimiento 1 Practica 3
+
+```markdown
+1. Valida que al enviar en el `payload` un valor `null`, obtenga un objeto con la llave `error` y el valor indique `payload no existe`.
+```
+![req1p3](https://github.com/Urivan07/twitter/blob/master/assets/img/practica3/user_view_validate_null.JPG)
+
+### Test
+
+* Prueba resultado esperado correcto:<br>
+![test1p3](https://github.com/Urivan07/twitter/blob/master/assets/img/practica3/test1.JPG)
+
+#  Requerimiento 2 Practica 3
+
+```markdown
+2. Valida que un `payload` contenga en alguna de las llaves `username`, `name`, o `id` un valor en `null`. Si hay un valor `null` regresa un objeto con la llave `error` y que indique el texto: `necesitan tener un valor válido`.
+```
+![req2p3](https://github.com/Urivan07/twitter/blob/master/assets/img/practica3/user_view_validate_properties_null.JPG)
+
+### Test
+
+* Prueba resultado esperado correcto:<br>
+![test2p3](https://github.com/Urivan07/twitter/blob/master/assets/img/practica3/test2.JPG)
+
+#  Requerimiento 3 Practica 3
+
+```markdown
+3. Valida que un `payload` con algunas de las propiedades necesarias regrese un objeto con la llave `error` indicando `necesitan tener un valor válido`.
+```
+![req3p3](https://github.com/Urivan07/twitter/blob/master/assets/img/practica3/user_view_validate_missing_properties.JPG)
+
+### Test
+
+* Prueba resultado esperado correcto:<br>
+![test3p3](https://github.com/Urivan07/twitter/blob/master/assets/img/practica3/test3.JPG)
+
+#  Requerimiento 4 Practica 3
+
+```markdown
+4. Verifica que se pueda crear un objeto `User`, al enviar un payload con las siguientes propiedades: `username`, `id` y `name`.
+```
+![req4p3](https://github.com/Urivan07/twitter/blob/master/assets/img/practica3/user_view_pass.JPG)
+
+### Test
+
+* Prueba resultado esperado correcto:<br>
+![test4p3](https://github.com/Urivan07/twitter/blob/master/assets/img/practica3/test4.JPG)
